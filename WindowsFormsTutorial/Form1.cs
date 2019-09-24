@@ -22,6 +22,10 @@ namespace WindowsFormsTutorial
         {
             textBox1.Text = counter.ToString();
             counter++;
+            if(counter > 10)
+            {
+                textBox1.BackColor = Color.Aqua;
+            }
         }
     }
 }
